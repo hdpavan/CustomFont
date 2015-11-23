@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview_01"
+        style="@style/TextStyle"
+        android:text="@string/blog_name" />
+
+
+    <TextView
+        android:id="@+id/textview_02"
+        style="@style/TextStyle"
+        android:text="@string/blog_name" />
+
+    <TextView
+        android:id="@+id/textview_03"
+        style="@style/TextStyle"
+        android:text="@string/blog_name" />
+
+</LinearLayout>
